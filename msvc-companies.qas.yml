@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5434/companies-qas
+    username: root-qas
+    password: 123456789
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
